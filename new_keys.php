@@ -4,8 +4,8 @@
 <H2>Добавление нового ключа:</H2>
 <form action="save_new_keys.php" metod="get">
 Код ключа: <input name="id_key" size="20" type="text">
-<br>Дата покупки ключа: <input name="key_buy" size="20" type="text">
-<br>Дата аннулирования ключа: <input name="key_end" size="20" type="text">
+<br>Дата покупки ключа: <input name="key_buy" size="20" type="date" placeholder="dd-mm-yyyy">
+<br>Дата аннулирования ключа: <input name="key_end" size="20" type="date" placeholder="dd-mm-yyyy">
 <br>Код игры: <input name="id_game" size="20" type="text">
 <br>Код магазина: <input name="id_store" size="20" type="text">
 <br>Цена ключа: <input name="key_sell" size="20" type="text">

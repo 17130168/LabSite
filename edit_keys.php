@@ -22,9 +22,9 @@ $key_type = $st['key_type'];
 }
 print "<form action='save_edit_keys.php' method='get'>";
 print "Код ключа: <input name='new_id_key' size='50' type='text' value='$id_key'>";
-print "<br>Дата покупки ключа: <input name='key_buy' size='20' type='text' value='$key_buy'>";
-print "<br>Дата аннулирования ключа: <input name='key_end' size='20' type='text' value='$key_end'>";
-print "<br>Код игры: <input name='id_game' size='20' type='text' value='$id_game'>";
+print "<br>Дата покупки ключа: <input name='key_buy' size='20' type='date' value='$key_buy'>";
+print "<br>Дата аннулирования ключа: <input name='key_end' size='20' type='date' placeholder='dd-mm-yyyy' value='$key_end'>";
+print "<br>Код игры: <input name='id_game' size='20' type='text' placeholder='dd-mm-yyyy' value='$id_game'>";
 print "<br>Код магазина: <input name='id_store' size='20' type='text' value='$id_store'>";
 print "<br>Цена ключа: <input name='key_sell' size='20' type='text' value='$key_sell'>";
 print "<br>Тип ключа: <input name='key_type' size='20' type='text' value='$key_type'>";

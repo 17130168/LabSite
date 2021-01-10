@@ -27,8 +27,8 @@ if ($result) {
 $counter=0;
 while ($row = $result->fetch_array()){
 $id_key = $row['id_key']; 
-$key_buy = $row['key_buy'];
-$key_end = $row['key_end'];
+$key_buy = date('d-m-Y', strtotime($row['key_buy']));
+$key_end = date('d-m-Y', strtotime($row['key_end']));
 $id_game = $row['id_game'];
 $id_store = $row['id_store'];
 $key_sell = $row['key_sell'];
